@@ -1,0 +1,56 @@
+﻿@* @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+{
+    <li class="nav-item">
+        <a class="nav-link" aria-current="page" asp-area="Admin" asp-controller="Dashboard" asp-action="Index">
+            <i class="fa-solid fa-gear"></i>
+            Admin
+        </a>
+    </li>
+} *@
+
+@* @{
+    var loginText = User.Identity.IsAuthenticated ? "Logout" : "Sign in";
+    var userRole = User.IsInRole("Admin") ? "Admin" : "User";
+    var userName = User.Identity.Name;
+} *@
+
+@if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+{
+    @* <li class="nav-item">
+        <a class="nav-link" aria-current="page" asp-area="Admin" asp-controller="Dashboard" asp-action="Index">
+            <i class="fa-solid fa-gear"></i>
+            Admin
+        </a>
+    </li> *@
+
+    <a class="nav-link" aria-current="page" asp-area="Admin" asp-controller="Dashboard" asp-action="Index">
+        <i class="fa-solid fa-gear"></i>
+        Admin
+    </a>
+}
+
+@if (User.Identity.IsAuthenticated) //Kisi giris yaptiysa Logout
+{
+    <a class="nav-link" aria-current="page"
+        asp-area=""
+        asp-controller="Account"
+        asp-route-returnUrl="@Context.Request.PathAndQuery()"
+        asp-action="Logout">
+        <i class="fa-solid fa-right-from-bracket"></i>
+        Logout
+    </a>
+}
+else
+{
+    <a class="nav-link" aria-current="page"
+        asp-area=""
+        asp-controller="Account"
+        asp-route-returnUrl="@Context.Request.PathAndQuery()"
+        asp-action="Login">
+        <i class="fa-solid fa-right-to-bracket"></i>
+        Sign In
+    </a>
+}
+
+
+

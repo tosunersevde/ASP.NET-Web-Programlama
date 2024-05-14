@@ -1,0 +1,26 @@
+﻿@model GetCallbackMessageAndTakipNo
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row gx-0 justify-content-center mt-5">
+    <div class="col-10">
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Takip Numarası</th>
+                    <th>Geri Dönüş Mesajı</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>@Model.takipNoString</td>
+                    <td style="max-width: 500px; overflow: auto; text-overflow: ellipsis;  padding: 10px;">
+                        @Model.geriDonusMesaji
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

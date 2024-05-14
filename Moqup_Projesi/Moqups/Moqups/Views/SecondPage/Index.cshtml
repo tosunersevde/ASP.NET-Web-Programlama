@@ -1,0 +1,99 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section css_files {
+    @* <link rel="stylesheet" href="@Url.Content("~/Content/css/styles.css")"> *@
+    <link rel="stylesheet" href="@Url.Content("~/css/styles.css")">
+}
+
+<!--second image-->
+@* Sayfa İçeriği *@
+@section content {
+    <div class="container">
+        <div class="p-4 m-4 border border-dark">
+            <div class="pe-4">
+                <div class="logo d-flex justify-content-end">
+                    <img class="img-fluid"
+                         src="@Url.Content("~/img/firmanet_logo.png")"
+                         width="160"
+                         height="48" />
+                </div>
+            </div>
+            <div class="header">
+                <div class="text-start main-texts text-blue">If I Could</div>
+            </div>
+            <div class="header">
+                <div class="text-start text-grey py-3">
+                    Kayıt tipini seçerek mesajınızı bırakınız.
+                </div>
+            </div>
+            <div class="bildirim pt-4 ps-4 pb-4 mt-2">
+                <div class="row text-start">
+                    <form class="form-width" form method="POST" asp-controller="SecondPage" asp-action="AddMessage">
+                        <div class="mb-3">
+                            <label class="form-label form-label-ozellik">
+                                Ad Soyad
+                                <small class="text-muted">(zorunlu değil)</small>
+                            </label>
+                            <input name="adSoyad"
+                                   type="text"
+                                   class="form-control placeholder-ozellik"
+                                   placeholder="Type full name here" />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label form-label-ozellik">Kayıt Tipi <span class="text-danger">*</span></label>
+                            <select name="KayitTipi" class="form-select border border-dark" required>
+                                <option selected disabled>Seçiniz</option>
+                                <option>İstek</option>
+                                <option>Öneri</option>
+                                <option>Şikayet</option>
+                                <option>Tespit</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label form-label-ozellik">Mesajınız <span class="text-danger">*</span></label>
+                            <textarea name="mesaj"
+                                      class="form-control placeholder-ozellik"
+                                      rows="4"
+                                      required
+                                      placeholder="Mesajınızı buraya yazınız..."></textarea>
+                        </div>
+                        <div class="line-container position-relative mb-2 mt-1">
+                            <div style="width: 100%; left: -3%"
+                                 ,
+                                 class="text-start separator"></div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label form-label-ozellik">Sizin Öneriniz <span class="text-danger">*</span></label>
+                            <textarea name="oneri"
+                                      class="form-control placeholder-ozellik"
+                                      rows="4"
+                                      required
+                                      placeholder="Bildiriminiz ile ilgili sizin önerinizi buraya yazınız ..."></textarea>
+                        </div>
+                        <div class="mt-2">
+                            <button type="submit"
+                                    class="btn btn-grey rounded-1 btn-lg px-4">
+                                GÖNDER
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@* JavaScript Dosyaları *@
+
+@section jquery_files {
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+}
+
+@section js_files {
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+}
+

@@ -1,0 +1,148 @@
+:root {
+  --background-grey: #eff0f4;
+  --background-green: #cbe8ba;
+  --grey-border: #c9d3dd;
+  --text-grey: #798da3;
+  --text-green: #355723;
+  --text-blue: #0844a4;
+  --text-navy: #29323d;
+  --text-white: #ffff;
+  --light-green: #4c7a34;
+
+  /* --light-blue: #a8c6fa; */
+  /* --background-light-green: #dfedd6; */
+  /* --grey-text-color: #3b4754; */
+  /* --teşekkur-color: #4c7a34; */
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.text-grey {
+  color: var(--text-grey);
+}
+.text-green {
+  color: var(--text-green);
+}
+.text-blue {
+  color: var(--text-blue);
+}
+.img-style {
+  color: #4c7a34;
+}
+.main-texts {
+  /* font-size: calc(1.375rem + 1.5vw); */
+  font-size: calc(1.325rem + 0.9vw) !important;
+  font-weight: bold;
+}
+
+.karşılama {
+  background-color: var(--background-green);
+  padding: 20px;
+  border-radius: 10px 10px 0px 10px;
+  -webkit-border-radius: 10px 10px 0px 10px;
+  -moz-border-radius: 10px 10px 0px 10px;
+  -ms-border-radius: 10px 10px 0px 10px;
+  -o-border-radius: 10px 10px 0px 10px;
+}
+.bildirim,
+.takip {
+  background-color: var(--background-grey);
+  border-radius: 10px 0px 0px 10px;
+  -webkit-border-radius: 10px 0px 0px 10px;
+  -moz-border-radius: 10px 0px 0px 10px;
+  -ms-border-radius: 10px 0px 0px 10px;
+  -o-border-radius: 10px 0px 0px 10px;
+  border: 3px solid var(--grey-border);
+}
+.bildirim-sonucu {
+  background-color: var(--background-green);
+  border-radius: 10px 10px 0px 10px;
+  -webkit-border-radius: 10px 10px 0px 10px;
+  -moz-border-radius: 10px 10px 0px 10px;
+  -ms-border-radius: 10px 10px 0px 10px;
+  -o-border-radius: 10px 10px 0px 10px;
+  border: 3px solid var(--grey-border);
+}
+.takip-sonucu {
+  background-color: var(--background-grey);
+  border: 3px solid var(--grey-border);
+  border-radius: 10px 10px 0px 10px;
+  -webkit-border-radius: 10px 10px 0px 10px;
+  -moz-border-radius: 10px 10px 0px 10px;
+  -ms-border-radius: 10px 10px 0px 10px;
+  -o-border-radius: 10px 10px 0px 10px;
+}
+
+.btn-green {
+  background-color: var(--text-green);
+  color: var(--text-white);
+}
+.btn.btn-green:hover {
+  background-color: #5d784f;
+  color: var(--text-white);
+}
+.btn-blue {
+  width: 185px;
+  background-color: var(--text-blue);
+  color: var(--text-white);
+}
+.btn.btn-blue:hover {
+  width: 185px;
+  background-color: #3969b6;
+  color: var(--text-white);
+}
+.btn-grey {
+  width: 185px;
+  background-color: var(--text-navy);
+  color: var(--text-white);
+}
+.btn.btn-grey:hover {
+  width: 185px;
+  background-color: #535b63;
+  color: var(--text-white);
+}
+
+.separator {
+  background-color: var(--text-grey);
+  height: 1.5px;
+  opacity: 0.25;
+  width: 40%;
+  position: absolute;
+  left: 30%;
+  top: 0;
+}
+
+.form-width {
+  width: 70%;
+}
+.form-control {
+  border: 3px solid var(--grey-border);
+}
+.form-label-ozellik {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.form-select {
+  width: 50%;
+}
+.cus-mt100 {
+  margin-top: 100px;
+}
+.middle-text {
+  font-size: 18px;
+  padding-left: 25%;
+  padding-right: 25%;
+  color: var(--text-grey);
+  font-weight: bold;
+}
+.cus-pb100 {
+  padding-bottom: 100px;
+}
+
+.placeholder-ozellik::-webkit-input-placeholder {
+  font-size: 13px;
+}

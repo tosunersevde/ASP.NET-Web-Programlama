@@ -1,0 +1,33 @@
+﻿@model List<GetMessageAndTakipNo>
+@{
+   Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="row gx-0 justify-content-center">
+    <div class="col-10">
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Ad-Soyad</th>
+                    <th>Takip Numarası</th>
+                    <th>Cevap Butonu</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.adSoyad</td>
+                        <td>@item.takipNoString</td>
+                        <td>
+                           <a type="button" class="btn w-100 @(item.isOk == true ? "btn-primary" : "btn-success")" 
+                               asp-controller="@((item.isOk == true ? "CallBackGoster" : "CevapVer"))"
+                               asp-action="Index" 
+                               asp-route-takipNo="@item.takipNoString">@(item.isOk == true ? "Geri Dönüş Cevabını Göster" : "Cevap Ver")
+                           </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

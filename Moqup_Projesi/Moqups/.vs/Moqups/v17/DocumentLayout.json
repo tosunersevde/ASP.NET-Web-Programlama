@@ -1,0 +1,63 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tosun\\source\\repos\\MoqupProjesi4\\Moqups\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCC1FE9-1CBE-4D6B-B976-B3300BDDC52C}|Moqups\\Moqups.csproj|c:\\users\\tosun\\source\\repos\\moqupprojesi4\\moqups\\moqups\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBCC1FE9-1CBE-4D6B-B976-B3300BDDC52C}|Moqups\\Moqups.csproj|solutionrelative:moqups\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 307,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Navbar.cshtml",
+              "DocumentMoniker": "C:\\Users\\tosun\\source\\repos\\MoqupProjesi4\\Moqups\\Moqups\\Views\\Shared\\_Navbar.cshtml",
+              "RelativeDocumentMoniker": "Moqups\\Views\\Shared\\_Navbar.cshtml",
+              "ToolTip": "C:\\Users\\tosun\\source\\repos\\MoqupProjesi4\\Moqups\\Moqups\\Views\\Shared\\_Navbar.cshtml",
+              "RelativeToolTip": "Moqups\\Views\\Shared\\_Navbar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T12:14:39.685Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 83,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

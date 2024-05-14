@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moqups - @ViewData["Title"]</title>
+    @* <title>Moqups | @ViewBag.PageTitle</title> *@
+
+    <link asp-append-version="true" rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css" />
+    <link asp-append-version="true" rel="stylesheet" href="~/css/site.css" />
+    <link asp-append-version="true" rel="stylesheet" href="~/lib/font-awesome/css/all.css" />
+
+    <!-- Gerekli CSS dosyaları -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- jQuery ve Google reCAPTCHA kütüphaneleri -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=v3_site_key"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.2/js/bootstrap.min.js"></script>
+
+    @* @RenderSection("css_files", required: false) *@
+</head>
+
+<body>
+    <header>
+        <partial name="_Navbar" /> 
+        @RenderSection("css_files", required: false)
+        @RenderSection("Header", false) 
+    </header>
+
+    @* @RenderSection("content", required: false) *@
+
+    @*@RenderSection("jquery_files", required: false)
+    @RenderSection("js_files", required: false)
+    @RenderBody() *@
+
+    <div class="container">
+        <!--main div+continer ile kusatilip sayfa ortalandi.-->
+        <main role="main" class="pb-3">
+            @RenderSection("content", required: false)
+            @RenderSection("jquery_files", required: false)
+            @RenderSection("js_files", required: false)
+            @RenderBody()
+        </main>
+    </div>
+
+    @*<footer>
+        @RenderSection("Footer", false) <!--Asagidaki ile ayni tanim-->
+        <partial name="_Footer" />
+    </footer> *@
+
+    <script asp-append-version="true" src="~/lib/jquery/jquery.min.js"></script> <!--Yapilar onbellege alinir.-->
+    <script asp-append-version="true" src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script asp-append-version="true" src="~/js/site.js"></script>
+    <script asp-append-version="true" src="~/lib/font-awesome/js/all.min.js"></script>
+
+    @*<!-- Gerekli JavaScript dosyaları -->
+    <script src="@Url.Content("~/jquery/jquery-3.5.1.min.js")"></script>
+    <script src="@Url.Content("~/js/bootstrap.min.js")"></script>
+    <script src="/js/site.js"></script>
+
+    <script>
+        // Dropdown'ı etkinleştirme
+        $(document).ready(function () {
+            $('.dropdown-toggle').dropdown();
+        });
+    </script>*@
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

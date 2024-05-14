@@ -1,0 +1,22 @@
+﻿@if (TempData["info"] is not null)
+{
+    <div class="alert alert-info my-3" role="alert">
+        @TempData["info"] @*TempData'da bir kere okuma yapildiktan sonra ilgili bilgi yigindan atilir.*@
+    </div>
+}
+
+@*Bilgi okunduktan sonra TempData tekrar null duruma gelir.*@
+
+@if (TempData["success"] is not null)
+{
+    <div class="alert alert-success my-3" role="alert">
+        @TempData["success"]
+    </div>
+}
+
+@if (TempData["danger"] is not null)
+{
+    <div class="alert alert-danger my-3" role="alert">
+        @TempData["danger"]
+    </div>
+}

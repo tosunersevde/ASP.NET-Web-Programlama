@@ -1,0 +1,22 @@
+﻿@model String
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="text-center mt-3">@Model takip numarasına geri dönüş yapın</h1>
+<div class="row gx-0 justify-content-center mt-5">
+        <div class="col-6">
+    <form asp-action="TakipNumarasınaMesajGönder" asp-controller="CevapVer" method="POST">
+            <textarea name="geriDonusMesaj"
+                      class="form-control placeholder-ozellik"
+                      rows="4"
+                      required
+                      placeholder="Mesajınızı buraya yazınız...">
+            </textarea>
+
+            <div class="d-flex justify-content-end mt-3">
+                <button class="btn btn-primary">Cevap Ver</button>
+            </div>
+    </form>
+        </div>
+</div>

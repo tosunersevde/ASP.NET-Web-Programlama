@@ -1,0 +1,40 @@
+﻿@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="text-center my-2">
+        <h6 class="display-6">
+            <br />
+            Hoşgeldin, Admin! <br />
+            <div class="lead my-4">
+                <p>
+                    Rolleri görüntülemek için
+                    <a asp-controller="Role" asp-action="Index">Roles</a>
+                    sayfasına gidebilirsin!
+                </p>
+                <p>
+                    Kullanıcıları görüntülemek için  
+                    <a asp-controller="User" asp-action="Index">Users</a> 
+                    sayfasına gidebilirsin!
+                </p>
+                <p>
+                    Kullanıcılara geri dönüş cevabı vermek ve verilen cevabı görüntülemek için
+                    <a asp-controller="RecordList" asp-action="Index">Record List</a> 
+                    sayfasına gidebilirsin!
+                </p>
+            </div>
+            
+        </h6>
+    </div>
+@*    <h3>Dasboard</h3> *@
+</body>
+</html>

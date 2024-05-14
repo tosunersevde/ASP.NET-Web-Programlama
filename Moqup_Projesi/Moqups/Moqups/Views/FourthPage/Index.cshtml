@@ -1,0 +1,77 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section css_files {
+    @* <link rel="stylesheet" href="@Url.Content("~/Content/css/styles.css")"> *@
+    <link rel="stylesheet" href="@Url.Content("~/css/styles.css")">
+}
+
+<!--fourth image-->
+@* Sayfa İçeriği *@
+@section content {
+    <div class="container">
+        <div class="p-4 m-4 border border-dark">
+            <div class="header pe-4">
+                <div class="logo d-flex justify-content-end">
+                    <img class="img-fluid"
+                         src="@Url.Content("~/img/firmanet_logo.png")"
+                         width="160"
+                         height="48" />
+                </div>
+            </div>
+            <div class="header">
+                <div class="text-start main-texts text-blue">Kayıt Takip</div>
+            </div>
+            <div class="header">
+                <div class="text-start text-grey py-3">
+                    Kayıt Takip numarasını girinizç
+                </div>
+            </div>
+            <div class="takip pt-4 ps-4 pb-4 mt-2">
+                <div class="row text-start">
+                    <form class="form-width" asp-action="Index" asp-controller="FifthPage" method="post">
+                        <div class="mb-3">
+                            <label class="form-label form-label-ozellik">
+                                Takip Kodu <span class="text-danger">*</span>
+                            </label>
+                            <input type="text"
+                                   class="form-control placeholder-ozellik"
+                                   placeholder="Type full name here"
+                                   name="takipNo" />
+                        </div>
+                        <div class="fs-6 text-danger fw-bold">
+                            Hatalı takip kodu, lütfen kontrol edip tekrar deneyiniz.
+                        </div>
+                        <div class="g-recaptcha pt-4 "
+                             data-sitekey="6Le8oq8UAAAAADSyaubiMfcxL1IqnYNDLPHeCKa8"></div>
+                        <div class="mt-5">
+                            <button type="submit"
+                                    class="btn btn-grey rounded-1 btn-lg px-4">
+                                GÖNDER
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@* JavaScript Dosyaları *@
+
+@section jquery_files {
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+}
+
+@section js_files {
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+}

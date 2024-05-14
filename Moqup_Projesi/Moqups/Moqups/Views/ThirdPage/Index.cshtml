@@ -1,0 +1,57 @@
+﻿@model string
+@{
+}
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section css_files {
+    @* <link rel="stylesheet" href="@Url.Content("~/Content/css/styles.css")"> *@
+    <link rel="stylesheet" href="@Url.Content("~/css/styles.css")">
+}
+
+<!-- third image -->
+@* Sayfa İçeriği *@
+@section content {
+    <div class="container">
+        <div class="p-4 m-4 border border-dark">
+            <div class="header pe-4">
+                <div class="logo d-flex justify-content-end">
+                    <img class="img-fluid"
+                         src="@Url.Content("~/img/firmanet_logo.png")"
+                         width="160"
+                         height="48" />
+                </div>
+            </div>
+            <div class="bildirim-sonucu mt-3">
+                <div class="row text-center">
+                    <div class="pt-5 pb-4">
+                        <img class="img-style" src="@Url.Content("~/img/check-circle.svg")" />
+                    </div>
+                    <div class="main-texts text-green pb-4 fs-3">Teşekkürler</div>
+                    <div class="middle-text pb-1">
+                        <p>
+                            Bildiriminiz en kısa sürede değerlendirilecektir.<br />Aşağıdaki
+                            takip kodu ile <br />kaydınızın durumunu kontrol edebilirsiniz.
+                            <br />Lütfen kodu kaydediniz.
+                        </p>
+                    </div>
+                    <div class="fw-bold text-green cus-pb100 fs-5">@Model</div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@* JavaScript Dosyaları *@
+
+@section jquery_files {
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+}
+
+@section js_files {
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+}
+
