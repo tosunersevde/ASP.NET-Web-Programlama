@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zTWHLS/XRFh/Xxx4b3hyk1fxLkwIORIe24OJdqwbbU6YOMN0Iwn04bY0EuQOymcbgVhwd2dKRdxqHWLA/OiCMg==",
+  "dgSpecHash": "ANtjfbpLIjxclEjnLW+zG4XsQDOwQCEc2LHPjw+Loj2tdEtDCdURMENMbkOBQBtMP+2DW7CKKK/OSUs6za50eg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tosun\\source\\repos\\MoqupProjesi4\\Moqups\\Moqups\\Moqups.csproj",
+  "projectFilePath": "C:\\GitHub\\ASP.NET-Web-Programlama\\Moqup_Projesi\\Moqups\\Moqups\\Moqups.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tosun\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\tosun\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

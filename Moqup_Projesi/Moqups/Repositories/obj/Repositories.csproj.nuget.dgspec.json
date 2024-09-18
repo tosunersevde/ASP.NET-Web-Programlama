@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tosun\\source\\repos\\MoqupProjesi4\\Moqups\\Repositories\\Repositories.csproj": {}
+    "C:\\GitHub\\ASP.NET-Web-Programlama\\Moqup_Projesi\\Moqups\\Repositories\\Repositories.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tosun\\source\\repos\\MoqupProjesi4\\Moqups\\Entities\\Entities.csproj": {
+    "C:\\GitHub\\ASP.NET-Web-Programlama\\Moqup_Projesi\\Moqups\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tosun\\source\\repos\\MoqupProjesi4\\Moqups\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\GitHub\\ASP.NET-Web-Programlama\\Moqup_Projesi\\Moqups\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\tosun\\source\\repos\\MoqupProjesi4\\Moqups\\Entities\\Entities.csproj",
+        "projectPath": "C:\\GitHub\\ASP.NET-Web-Programlama\\Moqup_Projesi\\Moqups\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\tosun\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tosun\\source\\repos\\MoqupProjesi4\\Moqups\\Entities\\obj\\",
+        "outputPath": "C:\\GitHub\\ASP.NET-Web-Programlama\\Moqup_Projesi\\Moqups\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -78,14 +78,14 @@
         }
       }
     },
-    "C:\\Users\\tosun\\source\\repos\\MoqupProjesi4\\Moqups\\Repositories\\Repositories.csproj": {
+    "C:\\GitHub\\ASP.NET-Web-Programlama\\Moqup_Projesi\\Moqups\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tosun\\source\\repos\\MoqupProjesi4\\Moqups\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "C:\\GitHub\\ASP.NET-Web-Programlama\\Moqup_Projesi\\Moqups\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "C:\\Users\\tosun\\source\\repos\\MoqupProjesi4\\Moqups\\Repositories\\Repositories.csproj",
+        "projectPath": "C:\\GitHub\\ASP.NET-Web-Programlama\\Moqup_Projesi\\Moqups\\Repositories\\Repositories.csproj",
         "packagesPath": "C:\\Users\\tosun\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tosun\\source\\repos\\MoqupProjesi4\\Moqups\\Repositories\\obj\\",
+        "outputPath": "C:\\GitHub\\ASP.NET-Web-Programlama\\Moqup_Projesi\\Moqups\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -110,8 +110,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\tosun\\source\\repos\\MoqupProjesi4\\Moqups\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\tosun\\source\\repos\\MoqupProjesi4\\Moqups\\Entities\\Entities.csproj"
+              "C:\\GitHub\\ASP.NET-Web-Programlama\\Moqup_Projesi\\Moqups\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\GitHub\\ASP.NET-Web-Programlama\\Moqup_Projesi\\Moqups\\Entities\\Entities.csproj"
               }
             }
           }

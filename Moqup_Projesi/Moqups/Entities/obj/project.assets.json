@@ -822,11 +822,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tosun\\source\\repos\\MoqupProjesi4\\Moqups\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\GitHub\\ASP.NET-Web-Programlama\\Moqup_Projesi\\Moqups\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\Users\\tosun\\source\\repos\\MoqupProjesi4\\Moqups\\Entities\\Entities.csproj",
+      "projectPath": "C:\\GitHub\\ASP.NET-Web-Programlama\\Moqup_Projesi\\Moqups\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\tosun\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tosun\\source\\repos\\MoqupProjesi4\\Moqups\\Entities\\obj\\",
+      "outputPath": "C:\\GitHub\\ASP.NET-Web-Programlama\\Moqup_Projesi\\Moqups\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",

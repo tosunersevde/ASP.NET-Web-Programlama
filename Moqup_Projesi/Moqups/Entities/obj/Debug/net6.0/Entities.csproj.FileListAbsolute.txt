@@ -34,3 +34,16 @@ C:\Users\tosun\source\repos\MoqupProjesi4\Moqups\Entities\obj\Debug\net6.0\Entit
 C:\Users\tosun\source\repos\MoqupProjesi4\Moqups\Entities\obj\Debug\net6.0\refint\Entities.dll
 C:\Users\tosun\source\repos\MoqupProjesi4\Moqups\Entities\obj\Debug\net6.0\Entities.pdb
 C:\Users\tosun\source\repos\MoqupProjesi4\Moqups\Entities\obj\Debug\net6.0\ref\Entities.dll
+C:\GitHub\ASP.NET-Web-Programlama\Moqup_Projesi\Moqups\Entities\bin\Debug\net6.0\Entities.deps.json
+C:\GitHub\ASP.NET-Web-Programlama\Moqup_Projesi\Moqups\Entities\bin\Debug\net6.0\Entities.dll
+C:\GitHub\ASP.NET-Web-Programlama\Moqup_Projesi\Moqups\Entities\bin\Debug\net6.0\Entities.pdb
+C:\GitHub\ASP.NET-Web-Programlama\Moqup_Projesi\Moqups\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
+C:\GitHub\ASP.NET-Web-Programlama\Moqup_Projesi\Moqups\Entities\obj\Debug\net6.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\ASP.NET-Web-Programlama\Moqup_Projesi\Moqups\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
+C:\GitHub\ASP.NET-Web-Programlama\Moqup_Projesi\Moqups\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
+C:\GitHub\ASP.NET-Web-Programlama\Moqup_Projesi\Moqups\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
+C:\GitHub\ASP.NET-Web-Programlama\Moqup_Projesi\Moqups\Entities\obj\Debug\net6.0\Entities.sourcelink.json
+C:\GitHub\ASP.NET-Web-Programlama\Moqup_Projesi\Moqups\Entities\obj\Debug\net6.0\Entities.dll
+C:\GitHub\ASP.NET-Web-Programlama\Moqup_Projesi\Moqups\Entities\obj\Debug\net6.0\refint\Entities.dll
+C:\GitHub\ASP.NET-Web-Programlama\Moqup_Projesi\Moqups\Entities\obj\Debug\net6.0\Entities.pdb
+C:\GitHub\ASP.NET-Web-Programlama\Moqup_Projesi\Moqups\Entities\obj\Debug\net6.0\ref\Entities.dll
